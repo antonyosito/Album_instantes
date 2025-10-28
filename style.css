@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+body { 
+    font-family: 'Inter', sans-serif; 
+    transition: all 0.3s ease; 
+}
+/* Estilo para el canvas (visualización de detalle) */
+#visualizationCanvas { 
+    border: 1px solid #374151; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
+    transition: border-color 0.3s; 
+}
+.memory-row:hover { 
+    background-color: #1f2937; 
+    cursor: pointer; 
+}
+.modal-overlay { 
+    background-color: rgba(0, 0, 0, 0.7); 
+}
